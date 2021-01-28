@@ -34,9 +34,9 @@ namespace MissCoder.Controllers
 
 
 
-                mailMessage.From = new MailAddress("misscoder3@gmail.com");
+                mailMessage.From = new MailAddress("@gmail.com");
 
-                mailMessage.To.Add("merveeenur2@gmail.com"); // kime gidicek email burada belirtiyoruz
+                mailMessage.To.Add("@gmail.com"); // kime gidicek email burada belirtiyoruz
 
 
 
@@ -54,7 +54,7 @@ namespace MissCoder.Controllers
 
                 smtpClient.UseDefaultCredentials = false;
 
-                smtpClient.Credentials = new System.Net.NetworkCredential("misscoder3@gmail.com", "Misscoder.24710");
+                smtpClient.Credentials = new System.Net.NetworkCredential("@gmail.com", "sifre");
 
                 smtpClient.EnableSsl = true;
 
